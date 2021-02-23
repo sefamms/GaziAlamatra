@@ -1,0 +1,228 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Alamatra</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/assets/img/favicon.png" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!--CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container d-flex align-items-center">
+
+            <a href="index.html" class="logo me-auto"><img src="assets/img/alamatrasonshape.png" alt="" class="img-fluid"></a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="Index">Hakkımızda</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="Index">Ekiplerimiz</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="Index">Destek</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="Index">İletişim</a></li>
+
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+                <ol>
+                    <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                    <li>Hakkımızda</li>
+                </ol>
+                <h2>Hakkımızda</h2>
+            </div>
+        </section>
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-8">
+                        <div class="portfolio-details-slider swiper-container">
+                            <div class="swiper-wrapper align-items-center">
+
+                                <div class="swiper-slide">
+                                    <img src="~/assets/img/team/ekip45.jpeg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="~/assets/img/team/ekip56.jpeg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="~/assets/img/ro2.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="portfolio-info">
+                            <h3>ROV</h3>
+
+                            <img src="~/assets/img/team/abdulrov1.jpg" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="portfolio-description">
+
+                            <p>
+                                ROV kısaca, uzaktan kumandalı denizaltı sistemleri (The Remotely Operated Vehicle (ROV) ) anlamına gelmektedir.
+                                İnsan sağlığını riske edecek durumlarda otonom yada manuel olarak sualtında uzaktan kontrollü görevler yapmak için kullanılan bu robot sualtı araştırmaları ve savunma sanayi gibi alanlarda oldukça önem arz ediyor. Alamatra-rov takımı olarak amacımız,
+                                insanlı olarak gerçekleştirilemeyen yada çok uzun zamanda gerçekleştirilebilen deniz temizliği, kurtarma operasyonları ve savunma sanayi gibi alanlarda
+                                sualtı keşif ve görev robotları üzerinde Ar-ge çalışması yapmak ve çeşitli keşif robotları üretmektir
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="portfolio-info">
+                            <h3>Roket</h3>
+
+                            <img src="~/assets/img/team/ano12.jpeg" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="portfolio-description">
+
+                            <p>
+                                Roketler 20. ve 21. yüzyılın en gözde teknolojilerinden biri.
+                                Günümüzde taşımacılıktan, turizme kadar pek çok alanda kullanılan yada kullanılması planlanan roketler geleceğin teknolojisi olarak da karşımıza çıkıyor.
+                                Uzay ve roket araştırmalarının ne denli önemli olduğunun farkında olan takımımız
+                                Alamatra-roket takımı adı altında uzay ve roket teknolojileri üzerine çalışmaktadır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="portfolio-info">
+                            <h3>Model Uygdu</h3>
+
+                            <img src="~/assets/img/team/modenuy.png" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="portfolio-description">
+
+                            <p>
+                                Uydular 20. yüzyılın en büyük icatlarından biri olarak kabul edilir. 21. yüzyıla da damgasını vuran bu harika teknoloji Alamatra topluluğu olarak bizi de içine çekiyor.
+                                Ülkemizin de bu teknoloji üzerine çalışması bizi daha da heyecanlandırdı.
+                                Uzun süredir uzay adına çalışmalar yürüten takım üyelerimiz uyduları daha yakından tanımak,
+                                nasıl geliştirebileceğini öğrenmek ve bu teknoloji üzerinde çalışmak için Alamatra-uydu takımını kurdu. 2018 yılından ilk uydumuz olan “Berhava” model uydusunu geliştirdik ve her geçen gün daha da iyisini yapmak için çalışıyoruz
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="portfolio-info">
+                            <h3>İHA</h3>
+
+                            <img src="~/assets/img/team/gorsel10rov.png" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="portfolio-description">
+
+                            <p>
+                                Arama-kurtarma operasyonlarından, savunma sanayisine kadar geniş bir yelpazede kullanılan İnsansız Hava Araçları(İHA-UAV) 21. yüzyılın en önde gelen teknolojilerinden biri olarak kabul ediliyor. Uzun yıllar üzerinde çalışmalar yürütülmesine rağmen her geçen gün daha da geliştirilebilir olduğunu gördüğümüz
+                                İHA teknolojilerinde bizde varız demek için, daha da iyisini yapıp geliştirmek için, teknoloji üretmek için Alamatra- UAV takımımızı kurduk.
+                                2019 yılında ilk ihamız olan” Akçaylak” ihayı ürettik ve daha iyisini yapmak için durmadan çalışıyoruz
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>ALAMATRA</h3>
+                        <p>
+                            Eti, Yükseliş Sk. No. 5, <br />
+                            06570 Çankaya/Ankara. <br>
+                            <strong>Email:</strong><a href="mailto:Alamatrarov@gmail.com">Alamatrarov@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Sosyal Medyada Biz</h4>
+                        <div class="social-links mt-3">
+                            <a href="https://www.instagram.com/alamatra_robotics/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCKu2iA_r56JtvcQKLgtcw5g?view_as=subscriber" class="youtube"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://www.linkedin.com/company/alamatra" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            <a href="mailto:Alamatrarov@gmail.com" class="email"><i class="bx bxl-messenger"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Alamatra</span></strong>. Tüm Hakları Saklıdır- @DateTime.Now.Year
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+    <!-- Vendor JS Files -->
+    <script src="~/assets/vendor/aos/aos.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets/vendor/php-email-form/validate.js"></script>
+    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/js/main.js"></script>
+
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)*@
+
+
+</body>
+</html>
