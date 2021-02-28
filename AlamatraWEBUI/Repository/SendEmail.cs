@@ -23,7 +23,7 @@ namespace AlamatraWEBUI.Repository
                 smtp.EnableSsl = true;
                 System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
                 NetworkCred.UserName = "lukas.poldi51@gmail.com";
-                NetworkCred.Password = "S.memis412";
+                NetworkCred.Password = "****";
                 smtp.UseDefaultCredentials = true;
                 smtp.Credentials = NetworkCred;
                 smtp.Port = 25;
